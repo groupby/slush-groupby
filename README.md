@@ -1,4 +1,4 @@
-# Slush Slush-groupby [![Build Status](https://secure.travis-ci.org/groupby/slush-groupby.png?branch=master)](https://travis-ci.org/groupby/slush-groupby) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-groupby.png)](http://badges.enytc.com/for/npm/slush-groupby)
+# Slush GroupBy [![Build Status](https://secure.travis-ci.org/groupby/slush-groupby.png?branch=master)](https://travis-ci.org/groupby/slush-groupby) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-groupby.png)](http://badges.enytc.com/for/npm/slush-groupby)
 
 > Generator for GroupBy typescript / javascript projects.
 
@@ -22,7 +22,7 @@ $ mkdir my-slush-groupby
 Run the generator from within the new folder:
 
 ```bash
-$ cd my-slush-groupby && slush slush-groupby
+$ cd my-slush-groupby && slush groupby
 ```
 
 ## Getting To Know Slush
@@ -40,7 +40,7 @@ See the [CONTRIBUTING Guidelines](https://github.com/groupby/slush-groupby/blob/
 ## Support
 If you have any problem or suggestion please open an issue [here](https://github.com/groupby/slush-groupby/issues).
 
-## License 
+## License
 
 The MIT License
 
@@ -66,4 +66,3 @@ HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
 FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 OTHER DEALINGS IN THE SOFTWARE.
-
