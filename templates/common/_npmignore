@@ -1,0 +1,12 @@
+.*
+
+src/
+test/
+
+build/
+scripts/
+
+typings/
+coverage/
+
+!dist/

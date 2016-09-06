@@ -1,0 +1,20 @@
+.DS_Store
+.tmp
+*.log
+tmp
+coverage
+.idea
+
+<% if (typescript) { %>
+# Typescript ignores
+typings
+src/**/*.js
+test/**/*.js
+<% } %>
+
+# Node ignores
+node_modules
+
+# Generated ignores
+dist
+docs

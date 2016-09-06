@@ -1,0 +1,13 @@
+dependencies:
+  pre:
+    <% if (cdn) { %>- sudo apt-get update && sudo apt-get install jq<% } %>
+    - git config --global user.email "ops@groubyinc.com"
+    - git config --global user.name "GroupBy Ops"
+    - git config --global push.default simple
+
+deployment:
+  npm:
+    tag: /v[0-9]+(\.[0-9]+)*/
+    owner: groupby<% if (cdn) { %>
+    commands:
+      - ./shipit.sh<% } %>
