@@ -1,7 +1,7 @@
 {
   "name": "slush-groupby",
   "description": "Generator for GroupBy typescript / javascript projects.",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/groupby/slush-groupby",
   "author": {
     "name": "Ben Teichman",
