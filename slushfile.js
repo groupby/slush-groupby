@@ -115,8 +115,6 @@ gulp.task('default', function(done) {
 
       if (answers.typescript) {
         files.push(__dirname + '/templates/typescript/**');
-      } else if (answers.babel) {
-        files.push(__dirname + '/templates/babel/**');
       }
       if (answers.circleci) {
         files.push(__dirname + '/templates/circleci/**');
