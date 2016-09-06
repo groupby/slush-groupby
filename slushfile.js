@@ -1,6 +1,6 @@
 /*
- * slush-slush-groupby
- * https://github.com/effervescentia/slush-slush-groupby
+ * slush-groupby
+ * https://github.com/groupby/slush-groupby
  *
  * Copyright (c) 2016, Ben Teichman
  * Licensed under the MIT license.

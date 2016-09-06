@@ -1,18 +1,18 @@
 {
-    "name": "slush-slush-groupby",
+    "name": "slush-groupby",
     "description": "Generator for GroupBy typescript / javascript projects.",
     "version": "0.0.1",
-    "homepage": "https://github.com/effervescentia/slush-slush-groupby",
+    "homepage": "https://github.com/groupby/slush-groupby",
     "author": {
         "name": "Ben Teichman",
         "email": "ben.teichman@groupbyinc.com"
     },
     "repository": {
         "type": "git",
-        "url": "git://github.com/effervescentia/slush-slush-groupby.git"
+        "url": "git://github.com/groupby/slush-groupby.git"
     },
     "bugs": {
-        "url": "https://github.com/effervescentia/slush-slush-groupby/issues"
+        "url": "https://github.com/groupby/slush-groupby/issues"
     },
     "license": "MIT",
     "main": "slushfile.js",
