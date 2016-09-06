@@ -60,7 +60,7 @@ gulp.task('default', function(done) {
   }, {
     name: 'appVersion',
     message: 'What is the version of your project?',
-    default: '0.1.0'
+    default: '0.0.1'
   }, {
     name: 'authorName',
     message: 'What is the author name?',
@@ -74,18 +74,20 @@ gulp.task('default', function(done) {
     message: 'What is the github username?',
     default: defaults.userName
   }, {
-    type: 'confirm',
-    name: 'typescript',
-    message: 'Will this project be written in typescript?',
-    default: true
-  }, {
-    type: 'confirm',
-    name: 'babel',
-    message: 'Will this project be written in ES6?',
-    when: function(answers) {
-      return !answers.typescript;
-    },
-    default: true
+    type: 'list',
+    name: 'language',
+    message: 'Which flavour of javascript?',
+    choices: [{
+      name: 'Typescript',
+      value: 'typescript'
+    }, {
+      name: 'ES6',
+      value: 'es6'
+    }, {
+      name: 'Vanilla JS',
+      value: 'vanilla'
+    }],
+    default: 'typescript'
   }, {
     type: 'confirm',
     name: 'circleci',

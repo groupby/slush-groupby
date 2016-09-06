@@ -5,7 +5,7 @@ tmp
 coverage
 .idea
 
-<% if (typescript) { %>
+<% if (language === 'typescript') { %>
 # Typescript ignores
 typings
 src/**/*.js
