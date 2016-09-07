@@ -113,7 +113,7 @@ gulp.task('default', function(done) {
 
       var files = [__dirname + '/templates/common/**'];
 
-      if (answers.typescript) {
+      if (answers.language === 'typescript') {
         files.push(__dirname + '/templates/typescript/**');
       }
       if (answers.circleci) {
