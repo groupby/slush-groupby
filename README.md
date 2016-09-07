@@ -1,4 +1,4 @@
-# Slush GroupBy [![CircleCI](https://circleci.com/gh/groupby/slush-groupby.svg?style=svg)](https://circleci.com/gh/groupby/slush-groupby) [![NPM version](https://badge-me.herokuapp.com/api/npm/slush-groupby.png)](http://badges.enytc.com/for/npm/slush-groupby)
+# Slush GroupBy [![CircleCI](https://circleci.com/gh/groupby/slush-groupby.svg?style=svg)](https://circleci.com/gh/groupby/slush-groupby) [![NPM version](https://img.shields.io/npm/v/slush-groupby.svg)](https://www.npmjs.com/package/slush-groupby)
 
 > Generator for GroupBy typescript / javascript projects.
 
