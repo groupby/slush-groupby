@@ -118,6 +118,7 @@ gulp.task('default', function(done) {
         return done();
       }
       answers.appNameSlug = _.slugify(answers.appName);
+      if (!('language' in answers)) answers.language = 'simple';
 
       var files = [__dirname + '/templates/simple/**'];
 
