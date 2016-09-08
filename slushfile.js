@@ -74,6 +74,14 @@ gulp.task('default', function(done) {
     message: 'What is the github username?',
     default: defaults.userName
   }, {
+    type: 'confirm',
+    name: 'simple',
+    message: 'Create a simple js project?',
+    default: false
+  }, {
+    when: function(answers) {
+      return !answers.simple;
+    },
     type: 'list',
     name: 'language',
     message: 'Which flavour of javascript?',
@@ -111,8 +119,11 @@ gulp.task('default', function(done) {
       }
       answers.appNameSlug = _.slugify(answers.appName);
 
-      var files = [__dirname + '/templates/common/**'];
+      var files = [__dirname + '/templates/simple/**'];
 
+      if (!answers.simple) {
+        files.push(__dirname + '/templates/common/**');
+      }
       if (answers.language === 'typescript') {
         files.push(__dirname + '/templates/typescript/**');
       }
