@@ -105,7 +105,7 @@ gulp.task('default', function(done) {
     type: 'confirm',
     name: 'cdn',
     message: 'Will this project be deployed to the CDN?',
-    default: true
+    default: false
   }, {
     type: 'confirm',
     name: 'moveon',
