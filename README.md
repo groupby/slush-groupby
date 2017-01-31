@@ -1,5 +1,7 @@
 # Slush GroupBy [![CircleCI](https://circleci.com/gh/groupby/slush-groupby.svg?style=svg)](https://circleci.com/gh/groupby/slush-groupby) [![NPM version](https://img.shields.io/npm/v/slush-groupby.svg)](https://www.npmjs.com/package/slush-groupby)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/groupby/slush-groupby.svg)](https://greenkeeper.io/)
+
 > Generator for GroupBy typescript / javascript projects.
 
 
